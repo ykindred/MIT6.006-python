@@ -207,6 +207,5 @@ def BST_sort(arr: list) -> list:
             ans.append(root.key)
             t -= 1
         helper(root.right)
-
     helper(build_BST(arr))
     return ans
